@@ -4,18 +4,6 @@ import streamlit as st
 # Load Model
 diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
-# Set up blue background color
-st.markdown(
-    """
-    <style>
-    body {
-        background-color: #3498db; /* Blue background color */
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 # Judul dan deskripsi
 st.title("Prediksi Data Mining Diabetes")
 st.write(
