@@ -11,7 +11,7 @@ st.title("Prediksi Data Mining Diabetes")
 col1, col2 =st.columns(2)
 
 with col1:
-    Pregnancies = st.number_input("Input Nilai Pregnancies/ Kehamilan",format="%.0f", value=0)
+    Pregnancies = st.number_input("Input Nilai Pregnancies/ Kehamilan", step=1, value=0)
 
 with col2:
     Glucose = st.number_input("Input Nilai Glucose/ Glukosa")
