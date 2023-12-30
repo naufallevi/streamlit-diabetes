@@ -10,7 +10,7 @@ st.markdown(
     <style>
     body {
         color: #FFFFFF; /* Warna teks diatur menjadi putih */
-        background-color: #FF0000; /* Warna latar belakang diatur menjadi merah */
+        background-color: #0000FF; /* Warna latar belakang diatur menjadi merah */
     }
     </style>
     """,
