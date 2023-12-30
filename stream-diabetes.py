@@ -4,13 +4,13 @@ import streamlit as st
 # Load Model
 diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
-# Set up background image
+# Set up background color and text color
 st.markdown(
     """
     <style>
-    .reportview-container {
-        background: url("https://example.com/background_image.jpg") no-repeat center center;
-        background-size: cover;
+    body {
+        color: #1E1E1E;
+        background-color: #F0F0F0;
     }
     </style>
     """,
