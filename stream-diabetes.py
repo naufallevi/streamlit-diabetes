@@ -4,13 +4,13 @@ import streamlit as st
 # Load Model
 diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
-# Set up background color and text color
+# Set up red background color and white text color
 st.markdown(
     """
     <style>
     body {
-        color: #1E1E1E;
-        background-color: #F0F0F0;
+        color: #FFFFFF; /* Warna teks diatur menjadi putih */
+        background-color: #FF0000; /* Warna latar belakang diatur menjadi merah */
     }
     </style>
     """,
