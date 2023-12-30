@@ -11,28 +11,28 @@ st.title("Prediksi Data Mining Diabetes")
 col1, col2 =st.columns(2)
 
 with col1:
-    Pregnancies = st.text_input ("Input Nilai Pregnancies/ Kehamilan")
+    Pregnancies = st.number_input("Input Nilai Pregnancies/ Kehamilan")
 
 with col2:
-    Glucose = st.text_input ("Input Nilai Glucose/ Glukosa")
+    Glucose = st.number_input("Input Nilai Glucose/ Glukosa")
 
 with col1:
-    BloodPressure = st.text_input ("Input Nilai Blood Pressure/ Tekanan Darah")
+    BloodPressure = st.number_input("Input Nilai Blood Pressure/ Tekanan Darah")
 
 with col2:
-    SkinThickness = st.text_input ("Input Nilai Skin Thickness/ Ketebalan Kulit")
+    SkinThickness = st.number_input("Input Nilai Skin Thickness/ Ketebalan Kulit")
 
 with col1:
-    Insulin = st.text_input ("Input Nilai Insulin")
+    Insulin = st.number_input("Input Nilai Insulin")
 
 with col2:
-    BMI = st.text_input ("Input Nilai BMI")
+    BMI = st.number_input("Input Nilai BMI")
 
 with col1:
-    DiabetesPedigreeFunction = st.text_input ("Input Nilai Diabetes Pedigree Function/ Fungsi Silsilah Diabetes")
+    DiabetesPedigreeFunction = st.number_input("Input Nilai Diabetes Pedigree Function/ Fungsi Silsilah Diabetes")
 
 with col2:
-    Age = st.text_input ("Input Nilai Age/ Usia")
+    Age = st.number_input("Input Nilai Age/ Usia")
 
 # Kode Prediksi
 
