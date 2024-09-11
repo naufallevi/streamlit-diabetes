@@ -1,5 +1,4 @@
-Tutorial
-  Thanks to Kelas Teguh
+Thanks to Kelas Teguh for Tutorial
   1: https://youtu.be/8uZrbVD1imE?si=vJwIieKaMDqJ1_LA
   2: https://youtu.be/WlRdlBv7pVc?si=0lBtffOaAwum2KjL
 
